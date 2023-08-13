@@ -1,7 +1,7 @@
 title: Marc Ackermann
 author:
   name: Marc Ackermann
-  email: email@marcackermann.io
+  email: email@marcackermann.nl
 description: >
   Gekke Groninger volgens @quintyboygames | Weblogger | Treintjes fan | Prutser
 
@@ -24,7 +24,7 @@ minima:
     # - { platform: telegram,       user_url: "https://t.me/jekyll" }
     - { platform: twitter,        user_url: "https://twitter.com/marcproeksels" }
     - { platform: youtube,        user_url: "https://www.youtube.com/@marcackermann" }
-    - { platform: rss,            user_url: "https://blog.marcackermann.io/feed.xml" }
+    - { platform: rss,            user_url: "https://blog.marcackermann.nl/feed.xml" }
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
