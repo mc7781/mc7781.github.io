@@ -42,7 +42,7 @@ show_drafts: false
 
 # Build settings
 baseurl: /
-remote_theme: jekyll/minima
+remote_theme: marcprojecten/minima-marc
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
