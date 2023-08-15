@@ -1,49 +1,74 @@
-title: Marc Ackermann
-author:
-  name: Marc Ackermann
-  email: email@marcackermann.nl
-description: >
-  Gekke Groninger volgens @quintyboygames | Weblogger | Treintjes fan | Prutser
+# Outputting
+permalink: /:categories/:year/:month/:day/:title.html
 
-minima:
-  skin: marc
-  date_format: "%b %-d, %Y"
-  social_links:
-    - { platform: devto,          user_url: "https://dev.to/marcackermann" }
-    # - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
-    # - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
-    - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
-    - { platform: github,         user_url: "https://github.com/marcprojecten" }
-    # - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
-    - { platform: instagram,      user_url: "https://www.instagram.com/marckiekplaotjes" }
-    # - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
-    # - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
-    # - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
-    # - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
-    # - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
-    # - { platform: telegram,       user_url: "https://t.me/jekyll" }
-    - { platform: twitter,        user_url: "https://twitter.com/marcproeksels" }
-    - { platform: youtube,        user_url: "https://www.youtube.com/@marcackermann" }
-    - { platform: rss,            user_url: "https://blog.marcackermann.nl/feed.xml" }
-
-show_excerpts: true # set to true to show excerpts on the homepage
-
-header_pages:
-  - about.md
-  - contact.md
-
-collections:
-  posts:
-    output          : true
-    permalink: /:collection/:name
-
+# Conversion
+markdown:         kramdown
+highlighter:      rouge
 excerpt_separator: <!--more-->
-show_drafts: false
 
-# Build settings
-baseurl: /
-remote_theme: sfreytag/friday-theme
-plugins:
-  - jekyll-feed
-  - jekyll-remote-theme
-  - jekyll-seo-tag
+# Config for your profile.
+title:            Friday Theme            # Site title
+name:             Friday Theme            # Your name
+avatar:           /theme/img/avatar.jpg   # Path to an avatar image
+
+# The theme uses the baseurl throughout, which is useful for running the entire
+# site under a subdir, like for this GitHub Pages deployment as a project site.
+# Use "" when runnign the site out of the root of a domain.
+baseurl: "/friday-theme"
+
+# Add a directory to hold misc pages, just to keep the root directory clean.
+include: ["_pages", "_portfolio"]
+
+# Wire in the SASS files in the theme directory.
+sass:
+  sass_dir: theme/_sass
+  style: compressed
+
+# Turn the projects into a collection.
+collections:
+  projects:
+    output: true
+    title: Projects
+    permalink: /:collection/:name.html
+  portfolio:
+    output: true
+    title: portfolio
+    permalink: /:collection/:name.html
+
+defaults:
+# Turn the profile sidebar on for all pages by default, except for the
+# collections, where it is off and replaced by useful things on the sidebar.
+# To override this one a page, use
+#    show_profile: false
+# to hide the profile.
+  -
+    scope:
+      path: ""
+    values:
+      show_profile: true
+  -
+    scope:
+      path: "_posts"
+    values:
+      show_profile: false
+      layout: defaults/post
+  -
+    scope:
+      path: "_portfolio"
+    values:
+      show_profile: false
+      layout: defaults/portfolio
+  -
+    scope:
+      path: "_projects"
+    values:
+      show_profile: false
+      layout: defaults/project
+  -
+    scope:
+      path: "list"
+    values:
+      show_profile: false
+      layout: defaults/list
+
+
