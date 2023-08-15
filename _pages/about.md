@@ -2,128 +2,33 @@
 layout: defaults/page
 permalink: about.html
 narrow: true
-title: More info about Friday Theme
-images:
-  - https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5b1016b885e7438c4633109d77368d4d&auto=format&fit=crop&w=1651&q=80
-  - https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=468a8c18f5d811cf03c654b653b5089e&auto=format&fit=crop&w=1650&q=80
-  - https://images.unsplash.com/photo-1504626835342-6b01071d182e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=975855d515c9d56352ee3bfe74287f2b&auto=format&fit=crop&w=1651&q=80
+title: About Me
 ---
 
-## What is it?
+Hoi ik ben Marc en kom uit het noorden van het land. Al van kleins af aan prutste ik met computers en website’s.
 
-{% include components/intro.md %}
+In 2003 ben ik met de mijn eerste weblog begonnen. Eerst gewoon over mijn dagelijks belevenissen maar later ook over mijn hobby’s.
 
-## Full Feature List
+Na een paar jaar begon een andere hobby van mij meer aandacht te trekken en stopte ik met bloggen. Maar nu in 2021 ben ik weer 
+begonnen met het bloggen over van alles en nog wat mij interesseert.
 
-- Installation
-  - Designed for Jekyll 3.8
-  - Compatible with GitHub Pages
-- Configuration
-  - Useful data files to quickly generate the profile sidebar and site navigation
-  - Easy to configure, minimal options, sensible defaults
-- Styling
-  - Styled with Bootstrap, proven to work cross-platform
-  - Minimal additional SCSS to get in the way
-  - Entirely customisable by tweaking the Boostrap SCSS variables
-- Layout
-  - 2 column layout
-  - Context-sensitive sidebars for blogs, documentation pages and normal content
-  - Narrow/wide page options
-  - Responsive layout built in
-  - Lots of helpful includes and components to build out your site
-- JavaScript and Components
-  - jQuery and Bootstrap JS included
-  - Use all the Bootstrap components
-- Other goodies
-  - Entypo SVG icons included
-  - Syntax highlighting for code fragments using Rougify for over 100 different languages
-- Blog
-  - A collection layout to build a blog with full support for tagging
-  - Interactive tag filtering for the blog
-- Projects
-  - A layout to list your projects, with a documentation-like layout for each project
-  - Table of contents generation for documentation pages
-- Permalinks
-  - Permalinks using baseurl throughout for deployment under a subdir or on GitHub pages
-  - Permalinks using .html throughout for deployment to environments not using default directory indexes
+**Fotografie en treinen**
 
-## Examples
+Ook is één van mijn hobby’s fotografie, helaas doe ik dit te weinig. Maar ik ga graag er op uit met de trein om foto’s te maken of 
+gewoon op er uit te trekken.
 
-Here's some quick examples of what it can do.
+Zo heb ik heel Nederland al ongeveer op de foto staan. Maar zoals ik zei dit doe ik te weinig, misschien ga ik binnenkort weer een trein tripje maken.
 
-### Code Highlighting
+Binnenkort zal ik ook wat foto’s online gaan zetten van foto’s die ik gemaakt heb van de trein reizen.
 
-{% highlight javascript %}
-var modulePattern = (function() {
-    // your module code goes here
-    var sum = 0 ;
+**Games en gaming**
 
-    return {
-        add:function() {
-            sum = sum + 1;
-            return sum;
-        },
-        reset:function() {
-            return sum = 0;
-        }
-    }
-}());
-{% endhighlight %}
+Één van mijn grote hobby’s is gamen wat vroeger al begon met ms-dos spelletjes op een 286. En nu vooral minecraft, eurotruck simulator, farming simulator en nog andere games.
 
-### Bootstrap Components
+**Servers en scripting**
 
-Here's a CSS component, it's an alert box with the info color:
+Toen ik begon met bloggen was het eerst in html documentjes die je kon maken met frontpage van microsoft. Al snel ben ik begonnen met het prutsen van eigen scripts in de scripting language PHP, maar al snel begon ik te bloggen in WordPress.
 
-<div class="alert alert-info">
-    A simple info alert!
-</div>
+Ook ben ik lid geweest van team internet binnen Scouting Nederland. Hier heb ik mee geholpen om binnen hun cms een aantal php scripts te schrijven. Dit was leuk om te doen maar was niks voor mij als prutser.
 
-And this is a more sophisticated example, using the JS to include a carousel of images:
-
-<div id="carouselExampleControls" class="carousel slide mb-4" data-ride="carousel">
-    <div class="carousel-inner">
-        {% for img in page.images %}
-            <div class="carousel-item {% if forloop.first %}active{% endif %}">
-                <img src="{{ img }}" class="d-block w-100" alt="">
-            </div>
-        {% endfor %}
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
-
-The spinner.
-
-<div class="spinner-border text-dark mb-4" role="status">
-  <span class="sr-only">Loading...</span>
-</div>
-
-### Icons
-
-There's a suite of hundreds of Entypo icons included, here's just a few.
-
-<div class="d-flex align-items-center mb-4">
-    <span class="icon grey mr-2">
-        {% include entypo/clock.svg %}
-    </span>
-    <span class="icon grey mr-2">
-        {% include entypo/cycle.svg %}
-    </span>
-    <span class="icon grey mr-2">
-        {% include entypo/chevron-up.svg %}
-    </span>
-    <span class="icon grey mr-2">
-        {% include entypo/new-message.svg %}
-    </span>
-    <span class="icon grey mr-2">
-        {% include entypo/shopping-cart.svg %}
-    </span>
-</div>
-
-
+Toen minecraft uit kwam ben ik begonnen met instellen van minecraft servers zoals survival servers. Later ben ik samen met vrienden zelf een minecraft servers begonnen zoals epiccraft en icecraft.
