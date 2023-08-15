@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 
 # Config for your profile.
 title:            Marc Ackermann            # Site title
-name:             Friday Theme            # Your name
+name:             Marc Ackermann            # Your name
 avatar:           /assets/img/logo.png   # Path to an avatar image
 
 # The theme uses the baseurl throughout, which is useful for running the entire
