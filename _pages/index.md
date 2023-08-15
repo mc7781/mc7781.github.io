@@ -2,7 +2,7 @@
 layout: defaults/page
 permalink: index.html
 narrow: true
-title: Welcome on Marc Ackermann.Nl
+title: "👋 Hoi daar! Ik ben Marc."
 ---
 
 Hoi ik ben Marc en kom uit het noorden van het land. Al van kleins af aan prutste ik met computers en website’s.
