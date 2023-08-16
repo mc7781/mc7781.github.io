@@ -29,4 +29,4 @@ comments:
 
 plugins:
  - jekyll-feed
-remote_theme: niklasbuschmann/contrast@v2.11 
+remote_theme: niklasbuschmann/contrast
