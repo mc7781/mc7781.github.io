@@ -1,7 +1,6 @@
 ---
-layout: defaults/page
-permalink: index.html
-narrow: true
+layout: default
+permalink: /
 title: "👋 Hoi daar! Ik ben Marc."
 ---
 
