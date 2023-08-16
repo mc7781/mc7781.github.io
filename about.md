@@ -1,7 +1,6 @@
 ---
-layout: defaults/page
+layout: default
 permalink: about.html
-narrow: true
 title: About Me
 ---
 
