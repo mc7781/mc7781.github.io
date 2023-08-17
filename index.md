@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 permalink: /
 title: "👋 Hoi daar! Ik ben Marc."
 ---
