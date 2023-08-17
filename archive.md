@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Misc
-permalink: /misc/
+title: Archive
+permalink: /archive.html
 ---
+
+Hier een lijstje met alle artikelen.
 
 <ul>
   {% for post in site.posts %}
