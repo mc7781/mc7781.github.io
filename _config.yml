@@ -35,7 +35,9 @@ header_pages:
 collections:
   posts:
     output          : true
-    permalink: /:collection/:name
+    permalink: /:categories/:year/:month/:day/:title:output_ext
+
+paginate_path: "/blog/page:num/"
 
 excerpt_separator: <!--more-->
 show_drafts: false
