@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Archive
-permalink: /archive.html
+title: Blog
+permalink: /blog/
 ---
 
 Hier een lijstje met alle artikelen.
