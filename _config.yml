@@ -39,7 +39,6 @@ collections:
 
 excerpt_separator: <!--more-->
 show_drafts: false
-paginate: 4
 
 # Build settings
 baseurl: /
