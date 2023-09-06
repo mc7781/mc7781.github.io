@@ -10,7 +10,7 @@ In dit artikel leg ik uit hoe je verbinding maakt met de vps/server en de comman
 
 <!--more-->
 
-# Wat is SSH command-line
+## Wat is SSH command-line
 
 Wat is command-line?
 Command-line is een interface in een besturingssysteem of programma, waarin je door op specifieke regels commando's te typen opdrachten geeft aan een besturingssysteem of programma. Dit kunnen commando's zijn om bijvoorbeeld een configuratiebestand te openen en te bewerken, of opdrachten uit te voeren, zoals het herstarten van software.
