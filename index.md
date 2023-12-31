@@ -1,5 +1,6 @@
 ---
 layout: home
 title: Home
+description: Marc Ackermann - Hoi
 ---
-<h1>{{ "Hello World!" | downcase }}</h1>
+
